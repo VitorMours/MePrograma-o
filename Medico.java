@@ -2,59 +2,46 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.meprogamacao;
+package meprogramacaopropria;
 
 import java.util.Date;
 
 /**
  *
- * @author ian
+ * @author anton
  */
-public class Medicos {
-    private String crm;
+public class Medico {
+    private String CRM;
     private String nome;
-    private Date datanascimento;
-    private Date datacadastro;
+    private Date dataNascimento;
+    private Date dataCadastro;
 
-    public String getCrm() {
-        return crm;
+    
+    
+    public String getCRM(){
+        return CRM;
     }
-
-    public void setCrm(String crm) {
-        this.crm = crm;
+    public void setCRM(String CRM){
+        this.CRM = CRM;
     }
-
-    public String getNome() {
+    public String getNome(){
         return nome;
     }
-
-    public void setNome(String nome) {
+    public void setNome(String nome){
         this.nome = nome;
     }
-
-    public Date getDatanascimento() {
-        return datanascimento;
+    public Date getNascimento(){
+        return dataNascimento;
     }
-
-    public void setDatanascimento(Date datanascimento) {
-        this.datanascimento = datanascimento;
+    public void setNascimento(Date dataNascimento){
+        this.dataNascimento = dataNascimento;
     }
-
-    public Date getDatacadastro() {
-        return datacadastro;
+    public Date getCadastro(){
+        return dataCadastro;
     }
-
-    public void setDatacadastro(Date datacadastro) {
-        this.datacadastro = datacadastro;
-    }
-    
-        
+    public void setCadastro(Date dataCadastro){
+        this.dataCadastro = dataCadastro;
     }
     
     
-    
-   
-
-    
-
-
+}
