@@ -2,62 +2,47 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.meprogamacao;
+package meprogramacaopropria;
 
 import java.util.Date;
 
 /**
  *
- * @author ian
+ * @author anton
  */
 public class Paciente {
-    private String cpf;
+    private String CPF;
     private String nome;
-    private Date nascimento;
-    private Date datacadastro;
-    private String endereco;
+    private Date dataNascimento;
+    private Date dataCadastro;
 
-    public String getCpf() {
-        return cpf;
+    
+    
+    
+    
+    public String getCPF(){
+        return CPF;
     }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
+    public void setCPF(String CPF){
+        this.CPF = CPF;
     }
-
-    public String getNome() {
+    public String getNome(){
         return nome;
     }
-
-    public void setNome(String nome) {
+    public void setNome(String nome){
         this.nome = nome;
     }
-
-    public Date getNascimento() {
-        return nascimento;
+    public Date getNascimento(){
+        return dataNascimento;
     }
-
-    public void setNascimento(Date nascimento) {
-        this.nascimento = nascimento;
+    public void setNascimento(Date dataNascimento){
+        this.dataNascimento = dataNascimento;
     }
-
-    public Date getDatacadastro() {
-        return datacadastro;
+    public Date getCadastro(){
+        return dataCadastro;
     }
-
-    public void setDatacadastro(Date datacadastro) {
-        this.datacadastro = datacadastro;
+    public void setCadastro(Date dataCadastro){
+        this.dataCadastro = dataCadastro;
     }
-
-    public String getEndereco() {
-        return endereco;
-    }
-
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
-    }
-    
-    
     
 }
-
